@@ -1,0 +1,75 @@
+
+      .subscribe-button {
+        background-color: rgb(200, 0, 0);
+        color: white;
+        border: none;
+        height: 36px;
+        width: 110px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 8px;
+      }
+
+      .join-button {
+        background-color: white;
+        border-color: rgb(22, 94, 172);
+        border-style: solid;
+        border-width: 1px;
+        color: rgb(22, 94, 172);
+        border-radius: 2px;
+        height: 36px;
+        width: 65px;
+        cursor: pointer;
+        margin-right: 8px;
+      }
+
+      .tweet-button {
+        background-color: rgb(49, 147, 218);
+        color: white;
+        height: 36px;
+        width: 80px;
+        border-color: rgb(49, 147, 218);
+        border-style: solid;
+        border-radius: 18px;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-right: 10px;
+      }
+
+      .uber-button {
+        background-color: black;
+        color: white;
+        height: 36px;
+        width: 110px;
+        font-size: 12px;
+        cursor: pointer;
+        margin-right: 7px;
+      }
+
+      .amazon-button {
+        background-color: rgb(255, 216, 20);
+        color: black;
+        font-weight: 1000px;
+        height: 36px;
+        width: 170px;
+        border-radius: 25px;
+        border-color: rgb(255, 216, 20);
+        border-style: solid;
+        cursor: pointer;
+        margin-right: 10px;
+      }
+      .bootstrap-button {
+        background-color: rgb(121, 82, 179);
+        border-radius: 5px;
+        font-weight: bold;
+        border-style: solid;
+        height: 36px;
+        width: 110px;
+        margin-top: 10px;
+        cursor: pointer;
+        border-color: rgb(121, 82, 179);
+        color: white;
+        font-size: small;
+      }
+   

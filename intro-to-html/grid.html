@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html></html>
+<head>
+  <title>grid practise</title>
+</head>
+<body>
+  <div
+    style="display: grid; grid-template-columns: 100px 100px; margin-top: 10px"
+  >
+    <!--these two values are just like row*column in matrix -->
+    <div style="background-color: blanchedalmond">div 1</div>
+    <!--this type of writing is known as inline styles-->
+    <div style="background-color: palegreen">
+      div 2
+      <p>helluuuu</p>
+    </div>
+  </div>
+
+  <div
+    style="
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      margin-top: 10px;
+      column-gap: 20px;
+      row-gap: 40px;
+    "
+  >
+    <!--these two values are just like row*column in matrix -->
+    <div style="background-color: blanchedalmond; height: 200px">div 1</div>
+    <!--this type of writing is known as inline styles-->
+    <div style="background-color: palegreen; height: 200px">div2</div>
+    <div style="background-color: blanchedalmond; height: 200px">div 1</div>
+    <div style="background-color: palegreen; height: 200px">div2</div>
+    <div style="background-color: blanchedalmond; height: 200px">div 1</div>
+    <div style="background-color: palegreen; height: 200px">div2</div>
+  </div>
+</body>
+<!---grid is always vertically alignned and hence is more prefferable than inline blck-->
